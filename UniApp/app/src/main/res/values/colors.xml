@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
+    <color name="secondary">#dfdfe1</color>
+    <color name="header">#2a5283</color>
+    <color name="background_helcome">#767677</color>
+    <color name="text">#212731</color>
+    <color name="opcao_tela">#fbd7d7</color>
     <color name="white">#FFFFFFFF</color>
-
     <color name="start">#2D48A9</color>
     <color name="mid">#1A3465</color>
     <color name="end">#1C2A3F</color>
-
     <color name="fill">#D7D7D9</color>
     <color name="border">#47546A</color>
 </resources>
