@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2A5283"
+    android:gravity="center"
+    android:orientation="vertical"
+    app:circularflow_defaultRadius="10dp"
+    app:circularflow_radiusInDP="10dp"
+    app:layout_constraintCircleRadius="10dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="397dp"
+        android:layout_height="77dp"
+        android:paddingBottom="10dp"
+        app:srcCompat="@drawable/uniapp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/div_login"
+        android:layout_width="395dp"
+        android:layout_height="230dp"
+        android:background="@drawable/roundend_corners"
+        android:backgroundTint="#00F3F3F3">
+
+        <EditText
+            android:id="@+id/edt_email"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#80FFFFFF"
+            android:hint="E-mail"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/white"
+            tools:layout_editor_absoluteX="22dp"
+            tools:layout_editor_absoluteY="105dp" />
+
+        <EditText
+            android:id="@+id/edt_senha"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2DFFFFFF"
+            android:hint="Senha"
+            android:inputType="textPassword"
+            android:textAlignment="viewStart"
+            android:textColorHint="@color/white"
+            tools:layout_editor_absoluteX="22dp"
+            tools:layout_editor_absoluteY="46dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#002B2D30"
+            android:buttonTint="@color/white"
+            android:text="Mostrar senha"
+            android:textColor="@color/white"
+            tools:layout_editor_absoluteX="126dp"
+            tools:layout_editor_absoluteY="159dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/roundend_corners"
+        android:backgroundTint="#FDFDFD"
+        android:hin
+        android:textOff="Entrar"
+        android:textOn="Entrar" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/roundend_corners"
+        android:backgroundTint="#FF9800"
+        android:textOff="Registrar"
+        android:textOn="Registrar" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="Esqueci a senha"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+</LinearLayout>
