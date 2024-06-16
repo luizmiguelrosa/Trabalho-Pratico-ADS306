@@ -34,7 +34,7 @@
         tools:layout_editor_absoluteY="172dp" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/label_professor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Horário do empréstimo:"
@@ -58,7 +58,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/label_professor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Horário de devolução: "
@@ -97,7 +97,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/label_professor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Nome do professor: "
@@ -169,7 +169,7 @@
         tools:layout_editor_absoluteY="518dp" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/label_professor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="CPF do professor: "
